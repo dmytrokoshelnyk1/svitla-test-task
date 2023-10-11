@@ -28,9 +28,9 @@ describe('ListView', () => {
 
   it('Should render correct count of items', async () => {
     const { container } = render(<ListView entries={entries} />)
-    const entries = entries.length
+    const entriesCount = entries.length
     const rows = container.getElementsByClassName('row')
-    expect(rows.length).toBe(entries)
+    expect(rows.length).toBe(entriesCount)
   })
 
   it('Should render 0 items', async () => {
