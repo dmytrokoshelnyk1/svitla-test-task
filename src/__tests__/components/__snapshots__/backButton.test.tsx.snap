@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackButton component tests renders correctly 1`] = `
+<button
+  className="backButton"
+  onClick={[Function]}
+  type="button"
+>
+  &lt;- Go Back
+</button>
+`;

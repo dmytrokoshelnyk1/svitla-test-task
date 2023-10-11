@@ -1,0 +1,69 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.topBlock {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  width: 100%;
+}
+
+.listContainer {
+  width: 50%;
+  border-radius: 5%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.72);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-bottom: 1px solid #bbb;
+  -webkit-box-shadow: 4px 7px 25px 0px rgba(110, 110, 110, 1);
+  -moz-box-shadow: 4px 7px 25px 0px rgba(110, 110, 110, 1);
+  box-shadow: 4px 7px 25px 0px rgba(110, 110, 110, 1);
+}
+.listHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.listBody {
+  flex: 1;
+}
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paginationContainer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.currentPage {
+  width: 30px;
+  height: 20px;
+  text-align: center;
+}
+
+.buttonNav {
+  width: 30px;
+  height: 20px;
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.buttonNav:hover {
+  background-color: rgba(183, 182, 182, 0.7);
+  border-radius: 5%;
+}

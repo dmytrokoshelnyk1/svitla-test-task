@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackButton component tests renders correctly 1`] = `
+<main
+  className="pageContainer"
+>
+  <div
+    className="description"
+  >
+    <p>
+      Hello, it's a test app for interview
+    </p>
+    <div>
+      <a
+        href="https://github.com/dmytrokoshelnyk1/svitla-test-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        By Dmytro Koshelnyk
+        <img
+          alt="Dmytro Kosheknyk avatar"
+          className="authorLogo"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height={24}
+          onError={[Function]}
+          onLoad={[Function]}
+          src="/_next/image?url=%2Fauthor_logo.jpeg&w=256&q=75"
+          srcSet="/_next/image?url=%2Fauthor_logo.jpeg&w=128&q=75 1x, /_next/image?url=%2Fauthor_logo.jpeg&w=256&q=75 2x"
+          style={
+            {
+              "color": "transparent",
+            }
+          }
+          width={100}
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="center"
+    >
+      <a
+        className="card"
+        href="/cables"
+      >
+        <h2>
+          Cable types 
+          <span>
+            -&gt;
+          </span>
+        </h2>
+        <p>
+          A list of available Cable types
+        </p>
+      </a>
+    </div>
+  </div>
+</main>
+`;
