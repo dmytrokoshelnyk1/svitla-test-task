@@ -1,17 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a test task written by Dmytro Koshelnyk.
 
 ## Getting Started
 
-First, run the development server:
+For run the project please follow the instruction
 
 ```bash
+git clone git@github.com:dmytrokoshelnyk1/svitla-test-task.git
+cd svitla-test-task
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

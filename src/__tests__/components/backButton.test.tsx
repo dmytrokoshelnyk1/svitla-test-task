@@ -32,7 +32,6 @@ describe('BackButton component tests', () => {
     render(<BackButton />)
 
     const btn = screen.getByText('<- Go Back', { selector: 'button' })
-    console.log('btn:', btn)
     fireEvent.click(btn)
 
     expect(mockBackFn).toHaveBeenCalled()
