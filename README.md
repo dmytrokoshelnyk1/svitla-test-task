@@ -12,9 +12,15 @@ cd svitla-test-task
 npm i
 ```
 Dont forget to create ```.env``` file ( You could remove .example from existed file .env.example)
+
 For start server run:
 ```
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+For run test
+```
+npm run test
+```
